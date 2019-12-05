@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 
+__all__ = ['app']
+
+from flask import request
+from rfid import RFID
+
 from flask import (
     Flask,
     request
 )
 
-from rfid import RFID
 
 app = Flask(__name__)
 
@@ -23,7 +27,7 @@ def read():
     tag_id, tag_text = rfid.read()
     
     return {
-        'id': tag_id,
+        'id': str(tag_id),
         'text': tag_text
     }
 
@@ -45,7 +49,7 @@ def write():
         tag_id, tag_text = rfid.write(text=text)
     
     return {
-        'id': tag_id,
+        'id': str(tag_id),
         'text': tag_text,
         'status': status
     }
