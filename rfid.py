@@ -23,5 +23,7 @@ class RFID(object):
 	def write(self, text):
 		
 		return self.reader.write_no_block(text)
-
 	
+	def unwrapped_read(self):
+		
+		return self.reader.read_no_block()

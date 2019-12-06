@@ -28,7 +28,7 @@ def read():
     
     return {
         'id': str(tag_id),
-        'text': tag_text
+        'text': tag_text.strip() if tag_text else tag_text
     }
 
 
@@ -50,6 +50,6 @@ def write():
     
     return {
         'id': str(tag_id),
-        'text': tag_text,
+        'text': tag_text.strip() if tag_text else tag_text,
         'status': status
     }
