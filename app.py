@@ -24,7 +24,7 @@ def read():
     
     rfid = RFID()
     
-    tag_id, tag_text = rfid.read()
+    tag_id, tag_text = rfid.read_no_block()
     
     return {
         'id': str(tag_id),

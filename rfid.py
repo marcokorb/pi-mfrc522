@@ -19,11 +19,23 @@ class RFID(object):
 		
 		return self.reader.read_no_block()
 	
-	@gpio_wrapper	
 	def write(self, text):
 		
-		return self.reader.write_no_block(text)
-	
-	def unwrapped_read(self):
+		tag_id, tag_text = self.reader.write_no_block(text)
 		
-		return self.reader.read_no_block()
+		if tag_id is None:
+			
+			tag_id, tag_text = self.reader.write_no_block(text)
+			
+		return tag_id, tag_text
+			
+	def read_no_block(self):
+		
+		tag_id, tag_text = self.reader.read_no_block()
+		
+		if tag_id is None:
+			
+			tag_id, tag_text = self.reader.read_no_block()
+			
+		return tag_id, tag_text
+			

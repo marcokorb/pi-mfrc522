@@ -1,4 +1,5 @@
 spidev
+RPi.GPIO
 mfrc522
 Flask
-
+Adafruit-GPIO>=0.4.0
