@@ -27,12 +27,12 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=4
-FILE_NAME_0=70;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Fapp.py;0;4
-FILE_NAME_1=375;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Frfid.py;0;4
+current_page=1
+FILE_NAME_0=770;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Fapp.py;0;4
+FILE_NAME_1=454;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Frfid.py;0;4
 FILE_NAME_2=235;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Futils.py;0;4
 FILE_NAME_3=114;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Fwsgi.py;0;4
-FILE_NAME_4=595;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Freader_process.py;0;4
+FILE_NAME_4=246;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Freader_process.py;0;4
 FILE_NAME_5=567;Python;0;EUTF-8;0;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Fblink_led.py;0;4
 FILE_NAME_6=478;Python;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Fstart_mqtt.py;0;4
 FILE_NAME_7=7;None;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FWorkspace%2Fpi-rfid%2Frequirements.txt;0;4
